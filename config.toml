@@ -56,7 +56,7 @@ toc_icon = "ri-menu-2-line"
 
 #============== Social media links =================================
 links = [
-    {name = "Mostodon", icon = "ri-mastodon-line", url = "https://fosstodon.org/amirography"},
+    {name = "Mostodon", icon = "ri-mastodon-line", url = "https://fosstodon.org/@Amirography"},
     {name = "GitHub", icon = "ri-github-line", url = "https://github.com/amirography"},
     {name = "Linkedin", icon = "ri-linkedin-line", url = "https://linkedin.com/in/amirography"},
     {name = "Twitter", icon = "ri-twitter-line", url = "https://twitter.com/amirography"},
