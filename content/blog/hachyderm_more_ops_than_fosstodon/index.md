@@ -1,5 +1,5 @@
 +++
-title = "Hashyderm's community is more ops-oriented than Fosstodon's"
+title = "Hachyderm's community is more ops-oriented than Fosstodon's"
 date = 2022-11-25
 draft = false
 slug = "hashyderm_more_ops_than_fosstodon"
