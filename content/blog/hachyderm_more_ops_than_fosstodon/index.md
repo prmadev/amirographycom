@@ -47,6 +47,7 @@ However I could not find such a thing. Every search engine I tried lacked the ab
 After that, I looked into the Mastodon APIs myself.  
 Long-story short, I found [timeline API](https://docs.joinmastodon.org/methods/timelines/#tag) to be particularly useful: 
 
+
 ```sh
 GET /api/v1/timelines/tag/:hashtag HTTP/1.1
 ```
