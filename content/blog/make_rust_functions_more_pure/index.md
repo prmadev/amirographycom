@@ -178,7 +178,7 @@ fn calculate_my_lateness(late_as_of: SystemTime) -> bool {
 
 #### Step Two: don't use functions with side effects inside your function
 
-Imagine that you have an alcoholic drink, if you add another non-alcoholic drink to it, it is still non-alcoholic.
+Imagine that you have a non-alcoholic drink, if you add another non-alcoholic drink to it, it is still non-alcoholic.
 But if you add an alcoholic drink to it, it will not remain non-alcoholic anymore.
 
 A pure function is only pure, if all the functions that are being called in it, are pure.
