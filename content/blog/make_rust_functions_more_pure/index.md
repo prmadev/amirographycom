@@ -1,5 +1,5 @@
 +++
-title = "Pure Rust: How to apply Functional Programming Priciples To Your Rust Functions"
+title = "Pure Rust: How to apply Functional Programming Principles To Your Rust Functions"
 date = 2023-03-25
 draft = false
 slug = "pure-rust-pure-functions"
