@@ -1,6 +1,6 @@
 +++
 title = "Go vs. Rust's Readability Trade-offs: Better Safe Than Sorry"
-date = 2023-04-09
+date = 2023-04-14
 draft = false
 slug = "readability_tradeoffs"
 insert_anchor_links = "heading"
