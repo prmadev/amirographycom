@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@400;700;900&display=swap');
+
 :root {
   //======================  Colors  ========================
   --primary-color: #31748f;
@@ -53,12 +55,12 @@
 
   //======================  Typography  =====================
   --homepage-margin-top: 15vh;
-  --homepage-max-width: 650px;
-  --paragraph-font-size: 1em;
-  --paragraph-line-height: 1.75;
+  --homepage-max-width: 550px;
+  --paragraph-font-size: 0.9em;
+  --paragraph-line-height: 1.7em;
   --img-border-radius: 4px;
   --pre-border-radius: 4px;
-  --main-font: 'Jost', Arial, Helvetica, sans-serif;
+  --main-font:'Fira Sans', 'Jost', Arial, Helvetica, sans-serif;
   --code-font: 'JetBrains Mono', monospace;
 
 }

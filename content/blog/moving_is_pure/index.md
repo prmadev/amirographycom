@@ -20,9 +20,7 @@ outdate_warn = false
 outdate_warn_days = 120
 +++
 Or you can also read the title as: I made a [poll](https://fosstodon.org/@Amirography/110152228540156245) and 81% agreed with me. So you probably don't need to read on. 
-
 I know, I hate the title as well. But I couldn't resist. 
-
 So here is another, better title:
 
 ## Moving a Variable to a Function in Rust Doesn't Make It Impure
@@ -43,15 +41,12 @@ let b_variable = a_variable;
   
 ```
 Now I consider `a_function_that_takes_ownership` to be a pure function.
-
 However, it raises a possible confusion:
 
 > Doesn't `a_function_that_takes_ownership` change the state of the outer function?
 > Isn't that a side effect?  
 
-I argue that it doesn't. Here is why: a function is not a function call.  
-
-Ok. let's visualize it. 
+I argue that it doesn't. Here is why: a function is not a function call. Ok. let's visualize it. 
 
 ```
       ________outer_function_______
@@ -99,9 +94,7 @@ If these conditions are not met, our function is not pure.
 
 Semantically, for the outer function `[v]` was used in the function call and then dropped. Which does not violate our rules.
 For the inner function, it just got an input and returns an output. 
-
 So it makes sematic sense. 
-
 In practice, it also makes the same guarantees as any other pure function:
 - No null pointers. 
 - No mutable state. 

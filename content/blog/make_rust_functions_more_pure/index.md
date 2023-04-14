@@ -28,7 +28,6 @@ I will try to explain Functional Programming(FP) in more practical terms.
 ## A definition to work with
 
 FP is a **declarative** way of writing a program that consists mostly of **pure functions** that operate on and produce **immutable data**.
-
 That was many other unfamiliar words. Let's make it concrete.
 
 ## Making it more concrete
@@ -68,7 +67,6 @@ fn some_function(some_input) -> some_output
 
 Why do we do this? When we are calling a function, we are expecting _something_ to happen.
 In FP world, the only acceptable _something_ is an output argument.
-
 A lack of output is _symptomatic_ of one of these two unacceptable situations:
 
 1. **Our function does nothing**. In which case, why are we even bothering to write it at all?
@@ -108,7 +106,6 @@ fn calculate_my_lateness(status: &mut bool) -> bool {
 
 As I mentioned before, a function does something when it returns something and changes the state of something outside itself.
 We call that _a side effect_.
-
 You may have noticed that our function takes a mutable variable of type `bool` and changes it.
 In our first iteration of the function, we needed it. But now, we grew out of it. So let's just delete it.
 
@@ -134,7 +131,6 @@ fn calculate_my_lateness() -> bool {
 
 Now isn't this better? When I call `calculate_my_lateness()`
 I'm not worried about the function changing anything it's not supposed to anymore.
-
 Let's move on.
 
 ### Pure functions return output only based on their argument
@@ -155,8 +151,6 @@ The problem here is these two:
 
 1. We need to write a new function, each time we have a new meeting.
 2. We also don't know what time current time is being compared to, unless we first read the function, and then find out what it uses as `SOME_SPECIFIED_TIME`.
-
-Let's change that.
 
 ```rust
 fn main() {
@@ -180,7 +174,6 @@ fn calculate_my_lateness(late_as_of: SystemTime) -> bool {
 
 Imagine that you have a non-alcoholic drink, if you add another non-alcoholic drink to it, it is still non-alcoholic.
 But if you add an alcoholic drink to it, it will not remain non-alcoholic anymore.
-
 A pure function is only pure, if all the functions that are being called in it, are pure.
 And `std::time:SystemTime::now()` is definitely not pure.
 Now, at some point we need to get the current time, but we don't need to do that where it is hidden from the caller.
@@ -235,9 +228,7 @@ Imagine doing this with the first function!
 
 #### One more step
 
-OK, I lied... Somewhat.
-
-Have you noticed the one glaring, lack of transparency and control here?
+OK, I lied... Somewhat. Have you noticed the one glaring, lack of transparency and control here?
 It's the `<=`. You may need to read the function here, if you have this simple question:
 
 > If I call the function exactly, at the precise moment that I specified to be `late_as_of`, will return true, or false?
@@ -245,7 +236,6 @@ It's the `<=`. You may need to read the function here, if you have this simple q
 Now, not answering this question using the function signature,
 won't make my function less pure,
 but still, it is a much nicer experience for the caller to be able to rely on their IDE's autocomplete to tell them what happens.
-
 But how the hell should we do that? Easy! We take a comparator function as input!
 
 ```rust
@@ -282,11 +272,9 @@ It may seem unnecessary for this simple function, but imagine much more complex 
 So we have all this power and transparency.
 But the elephant is in it room: We have a very shitty API.
 Let's make it nicer using a technique called currying (hence the "spicy" pun).
-
 What it means is: as well as taking functions as argument, we can return functions.
 That way, our `calculate_my_lateness` function can become a function-maker.
-
-OK, let me make it more concrete.
+Let me make it more concrete.
 
 ### Consider the use case
 
@@ -317,7 +305,6 @@ let output_time3 = calculate_my_lateness(
 ```
 
 This is not great.
-
 Here, We can just make a function that only takes our target time.
 
 ```rust
@@ -376,9 +363,8 @@ There is this often repeated old joke from Phil Karlton that says:
 > 2. Naming things
 >    And here we are concerned with the second one.
 
-In the imperative universe, we usually name our functions using _verbs_. Think `calculate_my_lateness`.
-
-In the declarative universe we are concerned with our output, we use _nouns_. Think `lateness_calculator`.
+- In the **imperative** universe, we usually name our functions using _verbs_. Think `calculate_my_lateness`.
+- In the **declarative** universe we are concerned with our output, we use _nouns_. Think `lateness_calculator`.
 
 This makes the intent of our function clear.
 How it is implemented under-the-hood is not what matters to the caller.
