@@ -54,8 +54,6 @@ body {
     color: white;
     padding: 2rem 2rem 2rem 2rem;
 
-
-
     nav {
       align-content: left;
 
@@ -67,17 +65,17 @@ body {
         background-color: white;
         color: black;
         font-weight: bolder;
-
         text-decoration-thickness: 0.5rem;
         text-underline-offset: 30%;
       }
-
     }
 
     div.top-info {
       display: flex;
       flex-direction: row;
       justify-content: space-between;
+      flex-basis: 600px;
+      flex-flow: wrap;
 
       p.breadcrums {
         display: block;
