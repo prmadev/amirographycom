@@ -245,6 +245,33 @@ body {
       }
 
     }
+
+    .notfound-error {
+      display: flex;
+      flex-direction: row;
+      align-content: center;
+
+
+      .notfound-code {
+        display: block;
+        text-align: center;
+        padding: 1rem;
+        background: black;
+        color: white;
+      }
+
+      .notfound-message {
+        display: block;
+        text-align: left;
+        padding: 1rem;
+        margin: 1rem;
+        // background: black;
+        // color: white;
+
+      }
+
+    }
+
   }
 
   // =================== fotter ===
