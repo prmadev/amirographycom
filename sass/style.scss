@@ -2,8 +2,7 @@
 @mixin dark-appearance {
   filter: invert(1);
 
-  img,
-  code {
+  img {
     filter: invert(1);
 
     &.invertable {
@@ -62,64 +61,88 @@ body {
 
       a {
         display: inline-block;
-        // padding-right: 1rem;
-        // padding-left: 1rem;
         margin-right: 2rem;
         margin-bottom: 2rem;
         padding: 1rem;
         background-color: white;
         color: black;
+        font-weight: bolder;
+
+        text-decoration-thickness: 0.5rem;
+        text-underline-offset: 30%;
       }
 
     }
 
-    p:not(.post-meta) {
-      display: block;
-      font-weight: bolder;
-      margin-right: 0rem;
-      margin-left: 0rem;
-      margin-top: 0rem;
-      margin-bottom: 0rem;
+    div.top-info {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+
+      p.breadcrums {
+        display: block;
+        // font-weight: bolder;
+        text-align: left;
 
 
-      a {
+        a {
+          color: white;
+          text-decoration-thickness: 0.25rem;
+          text-underline-offset: 30%;
+        }
+      }
+
+      p.post-meta {
+        text-align: right;
+        display: block;
+        background-color: black;
         color: white;
+
+
+        ::before {
+          content: "░░ ";
+        }
       }
     }
-
-    .post-meta {
-      text-align: left;
-      display: block;
-      background-color: black;
-      color: white;
-      display: inline-block;
-
-      margin-right: 2rem;
-      margin-left: 0rem;
-      margin-top: 1rem;
-      margin-bottom: 1rem;
-
-      ::before {
-        content: "░░ ";
-      }
-    }
-
 
     h1 {
       line-height: 3rem;
       display: block;
       background-color: black;
       color: white;
+
+    }
+
+    h1.tag-title {
+      text-transform: capitalize;
+    }
+
+    h1.category-title {
+      text-transform: capitalize;
     }
   }
 
   // =================== main ===
   main {
     padding: 2rem;
+    line-height: 2rem;
 
     a {
       text-underline-offset: 30%;
       color: black;
+      text-decoration-thickness: 0.25rem;
+      text-underline-offset: 20%;
+    }
+
+    .post-time {
+      font-weight: normal;
+    }
+
+    .post-title {
+      font-weight: bold;
+      // text-decoration-line: none;
+      text-decoration-thickness: 6px;
+      line-height: 2em;
     }
 
     h2,
@@ -195,7 +218,7 @@ body {
     blockquote {
       font-style: italic;
       border-left: 1rem solid black;
-      margin: 0rem;
+      margin: 0rem 0rem 2rem 0rem;
       padding-left: 1rem;
 
       p {
@@ -210,6 +233,18 @@ body {
       margin: 0 auto;
     }
 
+    .item {
+      display: inline-block;
+      background-color: black;
+      color: white;
+      margin: 1rem;
+      padding: 1rem;
+
+      a {
+        color: white;
+      }
+
+    }
   }
 
   // =================== fotter ===
@@ -220,11 +255,11 @@ body {
 
     a {
       display: inline-block;
-      padding-right: 1rem;
-      padding-left: 1rem;
-      margin: 0.5rem;
-      background-color: black;
-      color: white;
+      padding: 1rem;
+      margin: 1rem;
+      background-color: white;
+      color: black;
+      text-decoration-thickness: 0.5rem;
       text-underline-offset: 30%;
     }
 
