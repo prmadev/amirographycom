@@ -1,6 +1,4 @@
-# The URL the site will be built for
 base_url = "https://amirography.com"
-
 title = "Amirography"
 description = "Home to a nerd."
 
@@ -38,10 +36,10 @@ taxonomies = "safe"
 anchors = "safe"
 
 [extra]
-# name = "Amir Alesheikh"                    # Your name
-# id = "amirography"                      # Your id/username/handle
-# bio = "back-end developer / rustacean / gopher / previous cognitive science student / rationalist"                     # Your bio
-# avatar = "img/avatar.webp"       # Your avatar
+name = "Amir Alesheikh"                    # Your name
+id = "amirography"                      # Your id/username/handle
+bio = "back-end developer / rustacean / gopher / previous cognitive science student / rationalist"                     # Your bio
+logo = "img/avatar.png"       # Your avatar
 
 # show_id = true                   # Whether to show your id in homepage
 # show_projects = false             # Whether to show projects page
@@ -90,6 +88,8 @@ header_nav = [
     # { name = "@contexts", url = "/contexts" },
     # { name = "example", url = "http://example.com", new_tab=true },
 ]
+list_pages = true
+
 footer_nav = [
     # { name = "< previous", url = "#" },
     # { name = "webring", url = "#" },
