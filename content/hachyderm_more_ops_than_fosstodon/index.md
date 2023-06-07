@@ -1,5 +1,6 @@
 +++
 title = "Hachyderm's community is more ops-oriented than Fosstodon's"
+description = "I explore using some data, the ways that Hachyderm and Fosstodon may be different, community-wise."
 date = 2022-11-25
 draft = false
 slug = "hashyderm_more_ops_than_fosstodon"
@@ -9,15 +10,6 @@ insert_anchor_links = "heading"
 categories = ["thoughts"]
 tags = ["fediverse"]
 
-[extra]
-lang = "en"
-toc = true
-show_comment = true
-math = false
-mermaid = false
-cc_license = true
-outdate_warn = false
-outdate_warn_days = 120
 +++
 
 Ever since I have moved to the mastodon platform after "the great twitter migration". I was curious about two main instances. 

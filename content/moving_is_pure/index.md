@@ -4,12 +4,11 @@ date = 2023-04-09
 draft = false
 slug = "moving_is_pure"
 insert_anchor_links = "heading"
+description= "I argue that moved arguments inside Rust's functions preserves the purity of the function."
 
 [taxonomies]
 categories = ["thoughts"]
 tags = ["programming", "rust", "functional-programming"]
-
-[extra]
 +++
 
 Or you can also read the title as: I made a [poll](https://fosstodon.org/@Amirography/110152228540156245) and 81% agreed with me. So you probably don't need to read on. 

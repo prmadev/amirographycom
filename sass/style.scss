@@ -134,17 +134,6 @@ body {
       text-underline-offset: 20%;
     }
 
-    .post-time {
-      font-weight: normal;
-    }
-
-    .post-title {
-      font-weight: bold;
-      // text-decoration-line: none;
-      text-decoration-thickness: 6px;
-      line-height: 2em;
-    }
-
     h2,
     h3,
     h4,
@@ -233,18 +222,6 @@ body {
       margin: 0 auto;
     }
 
-    .item {
-      display: inline-block;
-      background-color: black;
-      color: white;
-      margin: 1rem;
-      padding: 1rem;
-
-      a {
-        color: white;
-      }
-
-    }
 
     .notfound-error {
       display: flex;
@@ -272,6 +249,42 @@ body {
 
     }
 
+    .item {
+      display: inline-block;
+      background-color: black;
+      color: white;
+      margin: 1rem;
+      padding: 1rem;
+
+      a {
+        color: white;
+      }
+
+    }
+
+    .post-item {
+      margin-bottom: 3rem;
+
+      .post-time {
+        font-weight: normal;
+      }
+
+      .post-title {
+        font-weight: bold;
+        text-decoration-thickness: 6px;
+        line-height: 2rem;
+
+      }
+
+      .post-description {
+        display: block;
+        padding-left: 1rem;
+        border-left: 0.5rem solid black;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+      }
+
+    }
   }
 
   // =================== fotter ===

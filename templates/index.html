@@ -11,12 +11,14 @@
 {% endif %}
 <ul>
   {% for page in pages %}
-  <li>
-    <p class="post-time">{% if page.date %}{{ page.date }}{% endif %}</a>
-      <br />
-      <a class="post-title" href="{{ page.permalink | safe }}">{{ page.title }}</a>
-      <br />
+  <li class="post-item">
+    <a class="post-time">{% if page.date %}{{ page.date }}{% endif %}</a>
+    <br />
+    <a class="post-title" href="{{ page.permalink | safe }}">{{ page.title }}</a>
+    <br />
+    <div class="post-description">
       {{ page.description }}
+    </div>
   </li>
   {% endfor %}
 </ul>

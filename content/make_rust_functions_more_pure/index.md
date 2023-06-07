@@ -1,5 +1,6 @@
 +++
 title = "Pure Rust: How to apply Functional Programming Principles To Your Rust Functions"
+description = "If you are not familiar with Functional Programming(FP), you are in for a ride. I will try to explain Functional Programming(FP) in more practical terms."
 date = 2023-03-25
 draft = false
 slug = "pure-rust-pure-functions"
@@ -9,10 +10,7 @@ insert_anchor_links = "heading"
 categories = ["guides"]
 tags = ["programming", "type-system", "functional-programming", "rust"]
 
-[extra]
 +++
-
-## Introduction
 
 If you are not familiar with Functional Programming(FP), you are in for a ride.
 I will try to explain Functional Programming(FP) in more practical terms.

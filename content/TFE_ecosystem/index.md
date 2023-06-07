@@ -9,7 +9,6 @@ insert_anchor_links = "heading"
 categories = ["thoughts"]
 tags = ["programming", "type-system"]
 
-[extra]
 +++
 
 # The Type-Function-Event Ecosystem : A set of ideas (and tools) that goes really well together

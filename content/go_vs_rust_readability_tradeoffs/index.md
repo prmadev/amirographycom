@@ -1,5 +1,6 @@
 +++
 title = "Go vs. Rust's Readability Trade-offs: Better Safe Than Sorry"
+description = "I argue that Rust is not less maintainable than Go just because Rust is less readable."   
 date = 2023-04-14
 draft = false
 slug = "readability_tradeoffs"

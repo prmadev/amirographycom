@@ -8,8 +8,6 @@ insert_anchor_links = "heading"
 [taxonomies]
 categories = ["thoughts"]
 tags = ["programming", "type-system"]
-
-[extra]
 +++
 
 Let's make an event-sourced mini system in rust and go
