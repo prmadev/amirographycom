@@ -69,10 +69,8 @@ awk '/fosstodon|hachyderm/ {print $0}' hash.json | sort > res-ops
 
 I just had to come up with a few keywords that I could associate more with operations and a few for development. 
 
-{% warning(header="disclamer") %}
-As you may have noticed, my methodoloy is hardly scientific and and extremly relient on subjective definitions.
-My goal was to find a good-enough-for-my-decision result. Not anything more. 
-{% end %}
+> As you may have noticed, my methodoloy is hardly scientific and and extremly relient on subjective definitions.
+> My goal was to find a good-enough-for-my-decision result. Not anything more. 
 
 I ended up with these words on differnt sides:
 

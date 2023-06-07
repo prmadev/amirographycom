@@ -10,14 +10,6 @@ categories = ["guides"]
 tags = ["programming", "type-system", "functional-programming", "rust"]
 
 [extra]
-lang = "en"
-toc = true
-show_comment = true
-math = false
-mermaid = false
-cc_license = true
-outdate_warn = false
-outdate_warn_days = 120
 +++
 
 ## Introduction
@@ -74,9 +66,7 @@ A lack of output is _symptomatic_ of one of these two unacceptable situations:
    These functions don't let us know or control what they are doing inside, without making us look at the source code.
    We will get back to this throughout this post.
 
-{% warning(header="note") %}
-Please note the emphasis on _symptomatic_.
-{% end %}
+> Please note the emphasis on _symptomatic_.
 
 So let's make it return the output:
 

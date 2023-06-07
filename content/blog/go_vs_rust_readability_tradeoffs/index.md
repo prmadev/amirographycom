@@ -10,14 +10,6 @@ categories = ["thoughts"]
 tags = ["rust", "programming", "go"]
 
 [extra]
-lang = "en"
-toc = true
-show_comment = true
-math = false
-mermaid = false
-cc_license = false
-outdate_warn = false
-outdate_warn_days = 120
 +++
 
 Traditionally speaking, Go and Rust are not direct competitors on many fronts.

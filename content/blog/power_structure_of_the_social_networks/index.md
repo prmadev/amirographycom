@@ -10,14 +10,6 @@ categories = ["thoughts"]
 tags = ["fediverse"]
 
 [extra]
-lang = "en"
-toc = true
-show_comment = true
-math = false
-mermaid = false
-cc_license = true
-outdate_warn = false
-outdate_warn_days = 120
 +++
 
 # Power Structure of Social Networks
@@ -39,10 +31,8 @@ Basically the idea is that:
 Let's make a few different forms of government considering the rule's I just discussed. 
 
 
-{% important(header="An Small Point") %}
-As dependence on involvement of people only comes when governments want more power and cannot retain the resources necessary from the land, 
-High Natural-Resources and High People-involvement tend to be mutually. 
-{% end %}
+> As dependence on involvement of people only comes when governments want more power and cannot retain the resources necessary from the land, 
+> High Natural-Resources and High People-involvement tend to be mutually. 
 
 ## High Centrality, High Natural-Resources, Low People-involvement 
 
@@ -60,9 +50,7 @@ The government does not need people uniting, form a danger to the government.
 Such authorities are highly motivated to bring social conflict, such as racism.
 Which may even lead to genocide by members of the society.
 
-{% tip(header="Example") %}
-Think of: Middle-east with it's rich natural oil. 
-{% end %}
+> Think of: Middle-east with it's rich natural oil. 
 
 ## High Centrality, Low Natural-Resources, Low People-involvement 
 
@@ -76,9 +64,7 @@ As such it is unsuccessful in enforcing any law, good or bad.
 Such a nation sees lots and lots of *coup d'états*.
 The authority is more alike a warlord. 
 
-{% tip(header="Example") %}
-Think of: Central African nations.
-{% end %}
+> Think of: Central African nations.
 
 ## High centrality, Low Natural-Resources, High People-involvement
 
@@ -91,9 +77,7 @@ As such, such nations become too hostile to other nations.
 And may end-up using genocide as a means of keeping the country united. 
 
 
-{% tip(header="Example") %}
-Think of: Germany during the Hitler era. 
-{% end %}
+> Think of: Germany during the Hitler era. 
 
 ## Low Centrality, High Natural-Resources, Low People-involvement
 
@@ -113,9 +97,7 @@ As people are seen as a barrier,
 government's like this tend to have a lot of controversial and theatrical surfaces,
 but end-up deciding things behind closed doors.
 
-{% tip(header="Example") %}
-Think of: USA during recent years, as it managed to put a huge people's involvement. 
-{% end %}
+> Think of: USA during recent years, as it managed to put a huge people's involvement. 
 
 ## Low Centrality, Low Natural-Resources, Low People-involvement
 
@@ -123,9 +105,7 @@ These governments are stable, but irrelevant.
 They fail to bring order, or protection for their people.
 And they don't provide any infrastructural benefits the society.
 
-{% tip(header="Example") %}
-Think of: Afghanistan Right after USA army left it.
-{% end %}
+> Think of: Afghanistan Right after USA army left it.
 
 ## Low Centrality, Low Natural-Resource, High People-involvement
 
@@ -139,9 +119,7 @@ However, such governments are only weak to adapt to any radical changes, as the 
 That means that these societies tend not to be the leaders or experimenters of different sorts of progress.
 However, they may end up reaching the top of the leader board in time. 
 
-{% tip(header="Example") %}
-Think of: Germany, today. 
-{% end %}
+> Think of: Germany, today. 
 
 
 ## How does it relate to the Twitter and Fediverse and ...?
@@ -200,6 +178,7 @@ And I like to think of people moving from Twitter to Mastodon as realizing that 
 
 
 ## Credit 
+
 This work is highly inspired and heavily reliant on Daron Acemoglu's fantastic book, *Why Nations Fail*.
 A must read.
 

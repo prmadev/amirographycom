@@ -10,14 +10,6 @@ categories = ["thoughts"]
 tags = ["programming", "type-system"]
 
 [extra]
-lang = "en"
-toc = true
-show_comment = true
-math = false
-mermaid = false
-cc_license = true
-outdate_warn = false
-outdate_warn_days = 120
 +++
 
 # The Type-Function-Event Ecosystem : A set of ideas (and tools) that goes really well together

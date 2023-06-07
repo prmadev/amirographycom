@@ -10,15 +10,8 @@ categories = ["thoughts"]
 tags = ["programming", "rust", "functional-programming"]
 
 [extra]
-lang = "en"
-toc = true
-show_comment = true
-math = false
-mermaid = false
-cc_license = false
-outdate_warn = false
-outdate_warn_days = 120
 +++
+
 Or you can also read the title as: I made a [poll](https://fosstodon.org/@Amirography/110152228540156245) and 81% agreed with me. So you probably don't need to read on. 
 I know, I hate the title as well. But I couldn't resist. 
 So here is another, better title:
